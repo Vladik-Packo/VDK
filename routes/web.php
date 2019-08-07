@@ -13,6 +13,8 @@
 
 use Illuminate\Http\Request;
 
+Route::get('test', function () {echo asset('storage/cv.docx');});
+
 Route::get('', 'PagesController@home');
 
 Route::group(['prefix' => '{locale}', 'middleware' => 'set_locale', 'where' => ['locale' => '(?:en|nl)']], function () {

@@ -25,6 +25,6 @@ return [
     'theme' => 'Dark theme',
 
     'about_success' => 'More about the triangle',
-    'cv' => 'TEST',
+    'cv' => 'Download Resume',
 
 ];
